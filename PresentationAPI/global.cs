@@ -1,0 +1,11 @@
+﻿global using Application.Features.Departments.Commands.CreateDepartment;
+global using Application.Features.Departments.Commands.DeleteDepartment;
+global using Application.Features.Departments.Commands.UpdateDepartment;
+global using Application.Features.Departments.Queries.GetAllDepartments;
+global using Application.Features.Departments.Queries.GetDepartmentById;
+global using Application.Features.Employees.Commands.CreateEmployee;
+global using Application.Features.Employees.Commands.UpdateEmployee;
+global using Application.Features.Employees.Queries.GetAllEmployees;
+global using Application.Features.Employees.Queries.GetEmployeeById;
+global using MediatR;
+global using Microsoft.AspNetCore.Mvc;

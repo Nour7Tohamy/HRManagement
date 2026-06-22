@@ -1,0 +1,6 @@
+@HumaVolveTaskDay4_HostAddress = http://localhost:5283
+
+GET {{HumaVolveTaskDay4_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
